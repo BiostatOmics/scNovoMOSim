@@ -1,9 +1,16 @@
 ![](https://capsule-render.vercel.app/api?type=waving&color=0:98A6D4,100:a9d498&customColorList=2&height=320&section=header&text=scNovoMOSim&fontSize=58&animation=fadeIn&fontAlignY=32&desc=Single%20cell%20de%20Novo%20simulator%20for%20paired%20scRNA-seq%20%2B%20scATAC-seq%20data%20with%20ground-truth%20GRNs&descSize=14&descAlignY=52&descAlign=50&fontColor=ffffff&descColor=ffffff)
 
-| <img src="man/figures/Logo_scNovoMOSim.png" width="90" alt="scNovoMOSim Logo" /> | <h1 style="margin: 0; font-size: 28px;">scNovoMOSim</h1><br>**Single cell de Novo simulator for paired scRNA-seq + scATAC-seq data with ground-truth gene regulatory networks** |
-| :--- | :--- |
-
-**Single cell de Novo simulator for paired scRNA-seq + scATAC-seq data with ground-truth gene regulatory networks**
+<table>
+  <tr>
+    <td>
+      <img src="man/figures/Logo_scNovoMOSim.png" width="250">
+    </td>
+    <td>
+      <h1>scNovoMOSim</h1>
+      <p>A Single cell de Novo simulator for paired scRNA-seq + scATAC-seq data with ground-truth gene regulatory networks</p>
+    </td>
+  </tr>
+</table>
 
 `scNovoMOSim` is an R package for generating synthetic single-cell multiome datasets where the underlying regulatory architecture is fully known. It is primarily aimed at benchmarking GRN inference algorithms and differential network analysis tools.
 
