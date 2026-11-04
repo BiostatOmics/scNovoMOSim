@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="man/figures/Logo_scNovoMOSim" alt="scNovoMOSim Logo" width="90" style="vertical-align: middle; margin-right: 15px;" />
+<img src="man/figures/Logo_scNovoMOSim.png" alt="scNovoMOSim Logo" width="90" style="vertical-align: middle; margin-right: 15px;" />
 <h1 style="display: inline-block; vertical-align: middle; margin: 0;">scNovoMOSim</h1>
 
 </div>
