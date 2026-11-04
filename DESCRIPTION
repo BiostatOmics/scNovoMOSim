@@ -1,0 +1,32 @@
+Package: scNovoMOSim
+Title: Simulate Single-Cell Multiome Data with Condition- and Cell-Type-Specific Gene Regulatory Networks
+Version: 0.1.0
+Authors@R: 
+    c(person(given ="Roxana Andreea", family ="Moldovan", email = "roxana.andreea.moldovan@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6822-0224")),
+    person(given ="Ana", family ="Conesa", role = "aut"),
+    person(given ="Sonia", family ="Tarazona", role = "aut"))
+Description: Simulates paired scRNA-seq and scATAC-seq count matrices with
+    an explicit ground-truth gene regulatory network (GRN). The simulator
+    supports multiple cell types and conditions, condition-specific GRN
+    rewiring (edge addition, deletion, sign-flip and weight drift), and
+    chromatin-accessibility-mediated transcriptional regulation. It is
+    primarily intended for benchmarking GRN inference and differential
+    network analysis tools for single-cell multiomics data.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    Matrix (>= 1.5.0),
+    jsonlite (>= 1.8.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/BiostatOmics/scNovoMOSim
+BugReports: https://github.com/BiostatOmics/scNovoMOSim/issues

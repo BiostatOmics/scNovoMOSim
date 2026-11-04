@@ -1,0 +1,30 @@
+# R package build artifacts
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+.Rproj.user/
+
+# roxygen2 / devtools
+/man/*.Rd
+/NAMESPACE
+/doc/
+/Meta/
+
+# Build output
+*.tar.gz
+*.zip
+
+# Test artefacts
+/tests/testthat/Rplots.pdf
+
+# macOS
+.DS_Store
+
+# Simulation output (large files – store elsewhere)
+output/
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.quarto
