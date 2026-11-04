@@ -38,7 +38,7 @@ Currently, the package can be installed directly from GitHub:
 
 ```r
 # Install from GitHub (requires devtools) 
-devtools::install_github("BiostatOmics/MORE")
+devtools::install_github("BiostatOmics/scNovoMOSim")
 ```
 
 or 
